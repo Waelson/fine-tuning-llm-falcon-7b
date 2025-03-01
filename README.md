@@ -1,4 +1,4 @@
-# Fine-Tuning do Falcon 7B com LoRA
+# Fine-Tuning do modelo Falcon 7B com LoRA
 
 Este repositório contem um notebook completo para realizar fine-tuning do modelo Falcon 7B utilizando LoRA (Low-Rank Adaptation). O objetivo é permitir a personalização desse LLM (Large Language Model) sem precisar modificar todos os seus pesos, tornando o processo mais eficiente e acessível.
 
