@@ -59,7 +59,6 @@ Nem sempre precisamos treinar um LLM do zero. O fine-tuning é útil quando quer
 | 📂 `notebooks/`       | Contém o notebook de treinamento            |
 | 📂 `models/`          | Diretório onde o modelo treinado será salvo |
 | 📂 `api/`             | Código da API para servir o modelo          |
-| 📜 `requirements.txt` | Lista de pacotes necessários                |
 
 ## Como usar este projeto?
 
