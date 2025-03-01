@@ -1,6 +1,6 @@
 # Fine-Tuning do modelo Falcon 7B com LoRA
 
-Este repositório contem um notebook completo para realizar fine-tuning do modelo Falcon 7B utilizando LoRA (Low-Rank Adaptation). O objetivo é permitir a personalização desse LLM (Large Language Model) sem precisar modificar todos os seus pesos, tornando o processo mais eficiente e acessível.
+Este repositório contem um notebook para realizar fine-tuning do modelo Falcon 7B utilizando LoRA (Low-Rank Adaptation) e uma API para realizar inferências. O objetivo é permitir a personalização desse LLM (Large Language Model) sem precisar modificar todos os seus pesos, tornando o processo mais eficiente e acessível.
 
 ## Contextualização
 
@@ -35,14 +35,14 @@ O Falcon 7B é um LLM (Large Language Model) desenvolvido pelo [Technology Innov
 
 ## Quando fazer fine-tuning?
 
-Nem sempre precisamos treinar um LLM do zero. O fine-tuning é útil quando queremos especializar o modelo em um domínio ou tarefa específica.
+Nem sempre é necessário treinar um LLM do zero. O fine-tuning é útil quando se deseja especializar o modelo em um domínio ou tarefa específica.
 
 **Quando fazer Fine-Tuning?**
 
 - Quando o modelo base não entende um domínio específico (Ex: medicina, direito, engenharia).
-- Quando precisamos de um chatbot personalizado (Ex: um assistente para suporte técnico).
-- Quando queremos que o modelo siga um tom de linguagem específico (Ex: respostas mais formais ou descontraídas).
-- Quando queremos adicionar novos conhecimentos sem treinar um modelo do zero (Ex: modelos de IA jurídicos).
+- Quando se necessita de um chatbot personalizado (Ex: um assistente para suporte técnico).
+- Quando se deseja que o modelo siga um tom de linguagem específico (Ex: respostas mais formais ou descontraídas).
+- Quando se quer adicionar novos conhecimentos sem treinar um modelo do zero (Ex: modelos de IA jurídicos).
 
 **Vantagens do Fine-Tuning:**
 
@@ -74,7 +74,7 @@ Os modelos de linguagem grandes (LLMs), como o Falcon 7B, possuem bilhões de pa
 - Compatibilidade com bibliotecas otimizadas como PyTorch + CUDA.
 
 **Usando o Google Colab Pro para o treinamento**
-Se você não tem uma GPU local potente, o Google Colab Pro é uma ótima opção para treinar modelos de IA. Ele oferece acesso a GPUs poderosas, como NVIDIA A100 e V100, por um custo acessível.
+Se você não tem uma GPU local potente, o Google Colab Pro é uma boa opção para treinar modelos de IA. Ele oferece acesso a GPUs poderosas, como NVIDIA A100 e V100, por um custo acessível.
 
 **Vantagens do Google Colab Pro:**
 
