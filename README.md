@@ -18,7 +18,7 @@ Os modelos de linguagem grandes (LLMs) são treinados em bilhões de textos, mas
 
 ## O que é o Falcon 7B?
 
-O Falcon 7B é um LLM (Large Language Model) desenvolvido pelo Technology Innovation Institute (TII). Ele faz parte da família de modelos Falcon e foi treinado em textos de alta qualidade para gerar respostas precisas e coerentes.
+O Falcon 7B é um LLM (Large Language Model) desenvolvido pelo [Technology Innovation Institute (TII)](https://www.tii.ae/). Ele faz parte da família de modelos Falcon e foi treinado em textos de alta qualidade para gerar respostas precisas e coerentes.
 
 **Características do Falcon 7B:**
 
