@@ -84,7 +84,8 @@ Se você não tem uma GPU local potente, o Google Colab Pro é uma ótima opçã
 
 📌 Este notebook foi desenvolvido e testado no Google Colab Pro, utilizando uma GPU NVIDIA A100.
 
-**Treinamento do modelo**
+### Treinamento do modelo
+
 O notebook inclui os passos para fazer fine-tuning do Falcon 7B com LoRA.
 Basta executar as células no Jupyter Notebook ou no Google Colab Pro.
 
@@ -92,17 +93,18 @@ Basta executar as células no Jupyter Notebook ou no Google Colab Pro.
 
 `Runtime > Change runtime type > Hardware accelerator > GPU.`
 
-**Realizando inferências**
+#### Realizando inferências
+
 Após o treinamento, você pode disponibilizar o modelo por meio de uma API REST que está no diretório `api` que foi construída utilizando FastAPI. Para isso, faça o download do modelo, que você acobou de treinar no Colab e salve-o no diretório `model` desse repositório.
 
-**Instale as dependências:**
+#### Instale as dependências:
 
 ```bash
 pip install transformers datasets accelerate peft bitsandbytes fastapi uvicorn
 
 ```
 
-**Execute o seguinte comando para iniciar o servidor:**
+#### Execute o seguinte comando para iniciar o servidor:
 
 ```bash
 uvicorn api:app --host 0.0.0.0 --port 8000
@@ -114,7 +116,7 @@ Agora, sua API estará disponível e você pode visualizar o Swagger no endereç
 http://localhost:8000/docs
 ```
 
-**Teste via `curl` no Terminal**
+#### Teste via `curl` no Terminal
 
 Teste a API diretamente pelo terminal:
 
