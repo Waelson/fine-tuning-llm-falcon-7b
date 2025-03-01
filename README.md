@@ -7,6 +7,7 @@ Este repositório contem um notebook completo para realizar fine-tuning do model
 Fine-Tuning é uma técnica utilizada para ajustar um modelo de IA pré-treinado em um novo conjunto de dados, permitindo que ele aprenda novas informações sem perder o conhecimento prévio.
 
 **Por que isso é importante?**
+
 Os modelos de linguagem grandes (LLMs) são treinados em bilhões de textos, mas nem sempre conhecem informações específicas. Com fine-tuning, podemos adaptar um modelo a domínios específicos, como atendimento ao cliente, medicina, direito ou engenharia.
 
 **Este projeto permite:**
