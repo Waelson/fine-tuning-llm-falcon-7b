@@ -39,6 +39,8 @@ Nem sempre é necessário treinar um LLM do zero. O fine-tuning é útil quando 
 
 **Quando fazer Fine-Tuning?**
 
+![Fluxo de treinamento](documentacao/arquitetura.png)
+
 - Quando o modelo base não entende um domínio específico (Ex: medicina, direito, engenharia).
 - Quando se necessita de um chatbot personalizado (Ex: um assistente para suporte técnico).
 - Quando se deseja que o modelo siga um tom de linguagem específico (Ex: respostas mais formais ou descontraídas).
